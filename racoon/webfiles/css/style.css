@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-size: 16px;
+}
+header div#original {
+    position: fixed;
+    width: 100%;
+}
+header div#base {
+    width: 1920px;
+    height: 90px;
+   
+    margin: 0 65px;
+
+}
+
+
+header nav ul {
+    display: flex;
+    list-style: none;
+
+
+}
+
+header ul a {
+    text-decoration: none;
+    text-align: justify;
+    margin: 40px;
+}
+
+header {
+    background-color: #1B2430;
+
+
+}
+
+header div{
+    display: flex;
+    height: 90px;
+    width: 1920px;
+
+
+    background-color: white;
+    justify-content:flex-end;
+
+    align-items: center;
+}
+header #social_icons {
+   
+   
+  
+}
+header #social_icons a {
+    margin: 15px 35px;
+
+}
+header #social_icons a img {
+ 
+
+}
+header img#jumb {
+    width: 100%;
+    height: 427px;
+    margin-top: 90px;
+    object-fit: cover;
+}
+
+main {
+    display: flex;
+}
+
+main article {
+    display: grid;
+    grid-template-areas: "racoon published" "racoon title" "racoon para";
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+article img {grid-area: racoon;}
+article time {grid-area: published;}
+article h2 {grid-area: title;}
+article p {grid-area: para;}
+
+main article img {
+    padding: 20px 25px;
+}
+
+aside {
+    background-color: #FBFBFB;
+}
+
+aside ul li {
+    list-style: none;
+}
+
+aside ul a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.063rem;
+    line-height:135%;
+   
+
+    text-align: justify;
+
+    color: #9F9F9F;
+
+}
+aside hr {
+    color: #C4C4C4;
+}
+
+@media screen and (max-width: 280px){
+    main article {
+        display: grid;
+    }
+    
+}

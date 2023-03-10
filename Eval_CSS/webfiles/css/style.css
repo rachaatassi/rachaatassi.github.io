@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Lato&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    background: #E5E5E5;
+}
+
+header {
+   
+
+    background: #345765;
+
+}
+
+header nav {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    background: #345765;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none;
+    text-align: center;
+}
+
+header img#logo {
+    width: 124px;
+    height: 80px;
+    margin: 0.625;
+}
+
+header nav a {
+
+    display: inline-block;
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1rem;
+
+    padding: 2.625rem;
+}
+
+header li a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+
+main {
+    max-width: 1400px;
+    width: 90%;
+
+    margin: auto;
+    margin-top: 7rem;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
+    color: #34A58A;
+}
+
+#club {
+    max-width: 1400px;
+    width: 100%;
+
+   max-height: 565px;
+   height: 100%;
+
+
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 3.5rem;
+}
+
+main div#principal {
+
+    display: flex;
+
+    margin: auto;
+    margin-top: 4rem;
+    padding-left: 0;
+
+
+}
+
+main h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 100%;
+    letter-spacing: 0.06rem;
+    color: #6B5B54;
+}
+
+main h2:first-of-type {
+
+
+    margin-bottom: 3.25rem;
+
+}
+
+main section:nth-of-type(2) p,
+a {
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 125%;
+    letter-spacing: 0.06em;
+    color: #34A58A;
+    text-decoration: none;
+}
+
+main section {
+    margin-bottom: 4rem;
+    margin-right: 5.7rem;
+}
+
+iframe {
+    
+    width: 547.67px;
+    height: 552.6px ;
+    border: solid #ffffff 5px;
+    border-radius: 10px;
+    margin-left: 6rem;
+    margin-top: 3rem;
+
+
+}
+
+main p#first {
+    
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 125%;
+    letter-spacing: 0.05rem;
+    color: #000000;
+    margin-bottom: 4rem;
+
+}
+.contact {
+    display: flex;
+    margin-bottom: 1.563rem;
+    align-items: center;
+}
+
+.contact img {
+    width: 20px;
+    height: 20px;
+    padding-right: 2rem;
+}
+.contact img.message {
+    height: 25px;
+
+}
+
+
+footer {
+
+    background: #345765;
+    margin: auto;
+}
+.contact {align-items: center;}
+.contact img{
+    width: 20px;
+    height: 20px;
+    justify-content: space-around;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+footer div#foot {
+    display: flex;
+    max-width: 1400px;
+    margin: auto;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 125%;
+    letter-spacing: 0.06rem;
+}
+footer p {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 125%;
+    letter-spacing: 0.06rem;
+}
+footer h4 {
+    text-align: left;
+    text-decoration: underline;
+    line-height: 114%;
+    letter-spacing: 0.06rem;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.375rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+footer h4:nth-of-type(2) ,h4:nth-of-type(4){
+    margin-bottom: 1rem;
+
+}
+footer .contact img {
+    width: 20px;
+    height: 20px;
+}
+
+footer section {
+    margin: 4rem 0;
+}
+footer section:first-of-type{
+    margin: 4rem 8rem;
+}
+
+#annex {
+    margin-right: 12rem
+}
+footer section:nth-of-type(2){
+    display: flex;
+}
+
+#footlogos {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+#footlogos img{
+    max-width: 115px;
+    max-height: 115px;
+}
+#footlogos img:first-of-type{
+    margin-top: 2rem;
+}
+#footlogos img:last-of-type{
+    margin-bottom: 4.375rem;
+}
+    
+
+footer section:first-of-type {
+    padding-right: 8rem;
+}
+footer #copyright {
+    text-align: center;
+    padding-top: 1.313rem;
+    padding-bottom: 1.188rem;
+}
+footer li {
+    list-style: none;
+}
+footer hr {
+    color: white;
+}
+@media screen and (max-width: 1024px) {
+    header nav li {
+        display: none;
+    }
+    header nav ul {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-top: 3px solid white;
+        border-bottom: 3px solid white;
+    }
+    header nav ul::after {
+
+        content: "";
+        top: 50%;
+        height: 3px;
+        background-color: white;
+        width: 100%;
+        position: absolute;
+        transform: translateY(-50%);
+    }
+    main {
+        max-width: 776x;
+        margin: auto;
+    }
+    iframe {
+        max-width: 300px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+    }
+
+    footer {
+        max-width: 1024px;
+    }
+    footer section:first-of-type{
+        margin: 1rem 0;
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        margin-left:  1rem;
+        margin-right: 1rem;
+    }
+    
+    main div#principal {
+        display: block;
+    }
+    footer div#foot {
+        display: block;
+    }
+    footer section {
+        padding: 2.5rem;
+        align-items: center;
+    }
+   
+footer section:last-of-type{
+    display: block;
+}
+}
+
+@media screen and (max-width: 320px) {
+    *{
+   font-size: 10px;
+}
+
+img#club{
+    max-width: 300px;
+    width: 100%;
+    max-height: 100px;
+    height: 100%;
+}
+iframe {
+    max-width: 150px;
+    width: 100%;
+    max-height: 150px;
+    height: 100%;
+
+}
+
+}
